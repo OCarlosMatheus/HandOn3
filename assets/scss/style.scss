@@ -2,6 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik+Bubbles&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
+
+// VARIABLES
+
+@import './variaveis.scss';
+
+
+// COMPONENTS
+@import './header.scss';
+@import './nav-produtos.scss';
+@import './banners-promocionais-statico.scss';
+@import './produtos.scss';
+
 // FRAMEWORK
 
 @import './bootstrap.min.scss';
+
+// CONFIG
+
+@import './config.scss';

@@ -1,5 +1,135 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik+Bubbles&family=Source+Sans+Pro:wght@200;300;400&display=swap");
+header {
+  background: #FFC107;
+  padding: 25px;
+}
+header form input {
+  background: #FFF;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: relative;
+  right: 40px;
+}
+header li {
+  position: relative;
+}
+header li span.Notificação {
+  color: #FFF !important;
+  background: #FF0F9A;
+  position: absolute;
+  top: -11px;
+  left: 5px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343A40;
+}
+header li a svg {
+  height: 23px;
+  width: 25px;
+}
+header li a:hover {
+  color: initial !important;
+}
+
+nav.nav-produtos {
+  background: #343A40;
+}
+nav.nav-produtos a {
+  color: #FFF;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+nav.nav-produtos ul.nav li svg {
+  margin-right: 10px;
+  height: 23px;
+  width: 23px;
+}
+nav.nav-produtos ul.nav li:hover {
+  background: black;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0px;
+  background: #343A40;
+  top: 44px;
+  border-top: solid 10px #FFC107;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+
+.banners-promocionais-statico {
+  padding: 30px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background-color: #FF0F9A;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-color: #B343C3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #FFF;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg {
+  height: 60px;
+  width: 60px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p strong,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
+  font-weight: bold;
+}
+.banners-promocionais-statico div {
+  display: flex;
+  align-items: center;
+}
+
 /*!
 * Bootstrap  v5.2.3 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -10933,5 +11063,12 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343A40 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */

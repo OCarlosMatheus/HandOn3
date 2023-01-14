@@ -1,0 +1,54 @@
+nav.nav-produtos {
+    
+    background: $cor-secundaria;
+
+    a {
+        color:$branco;
+    }
+    
+    ul.nav {
+        li {
+            position: relative;
+            color: $branco;
+            display:flex;
+            align-items:center;
+
+            padding: 10px;
+
+            svg {
+                margin-right: 10px;
+                height: 23px;
+                width: 23px;
+            }
+            
+            &:hover {
+                background: darken($color: $cor-secundaria, $amount: 30);
+
+                ul.nav {
+
+                    display:block;
+            }
+        }
+
+            ul.nav {
+                display:none;
+                position: absolute;
+                z-index: 999;
+                left: 0px;
+
+                background: $cor-secundaria;
+                top: 44px;
+                border-top: solid 10px $cor-primaria;
+
+                width: 100%;
+
+                li {
+                    padding: 10px 25px;
+
+                }
+            }
+        }
+    }
+
+}
+
