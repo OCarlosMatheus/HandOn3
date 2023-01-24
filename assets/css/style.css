@@ -130,6 +130,102 @@ nav.nav-produtos ul.nav li ul.nav li {
   align-items: center;
 }
 
+.produtos {
+  padding: 30px;
+}
+.produtos h1 {
+  margin-top: -23px;
+  margin-bottom: 3px;
+  font-size: 26px;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-estrelas svg {
+  fill: #FFC107;
+}
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.produtos-compra p {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-estrelas svg {
+  fill: #FFC107;
+  height: 16px;
+  width: 16px;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco .produtos-estrelas, .produtos-compra .produtos-preco strong span, .produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco form {
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+footer {
+  background: #343A40;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+  padding: 15px 0;
+  margin-top: 15px;
+}
+footer ul li {
+  color: #FFF;
+  font-size: 16px;
+}
+footer ul li a {
+  color: #FFF;
+}
+footer ul li a:hover {
+  color: #FFF;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 361px) {
+  .banners-promocionais-statico .banners-promocionais-statico-12x p,
+  .banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    padding: 20px;
+  }
+  #banner-promocionais {
+    display: none;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  ul li {
+    margin: 7px;
+  }
+}
 /*!
 * Bootstrap  v5.2.3 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -11063,12 +11159,25 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  margin-top: 5px;
+  margin-bottom: 55px;
+  margin-left: 10px;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
 body {
   color: #343A40 !important;
 }
 
 a {
   text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

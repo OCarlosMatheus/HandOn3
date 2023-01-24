@@ -1,0 +1,52 @@
+ header {
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+} 
+
+@media (max-width: 361px) {
+    
+    .banners-promocionais-statico {
+        .banners-promocionais-statico-12x,
+        .banners-promocionais-statico-todo-br {
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    header {
+        form {
+            padding: 20px;
+        }
+    }
+
+    #banner-promocionais {
+        display:none;
+    }
+
+   
+        .produtos-container {
+            img {
+                width: 100%
+            }
+        }
+    
+}
+
+@media (max-width: 991px) {
+    ul {
+        li {
+            margin: 7px;
+        }
+    }
+}
+

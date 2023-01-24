@@ -1,0 +1,36 @@
+footer{
+    background: $cinza;
+
+    h4 {
+        color: $amarelo;
+        font-size: 19px;
+        padding: 15px 0;
+        margin-top: 15px;
+    }
+ 
+    ul {
+        li { 
+            color: $branco;
+            font-size: 16px;
+
+            a{
+                color: $branco;
+                &:hover {
+                        color: $branco;
+                    
+            }
+        }
+
+        }
+    }
+
+    ul {
+        li.ellipsis {
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+}

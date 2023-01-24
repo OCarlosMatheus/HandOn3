@@ -13,11 +13,19 @@
 @import './nav-produtos.scss';
 @import './banners-promocionais-statico.scss';
 @import './produtos.scss';
+@import './produtos-compra.scss';
+@import './footer.scss';
+@import './responsive.scss';
+
 
 // FRAMEWORK
-
 @import './bootstrap.min.scss';
 
-// CONFIG
+// BOOTSTRAP COMPONENTS
+@import './breadcrumb.scss';
 
+
+// CONFIG
 @import './config.scss';
+
+
